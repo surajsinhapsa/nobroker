@@ -63,6 +63,13 @@ public class User {
     }
 
     private String password;
+    private boolean emailVerified;
 
+    public boolean isEmailVerified() {
+        return emailVerified;
+    }
 
+    public void setEmailVerified(boolean emailVerified) {
+        this.emailVerified = emailVerified;
+    }
 }
